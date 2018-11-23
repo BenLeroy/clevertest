@@ -43,8 +43,8 @@
     },
     "scripts": {
         "auto-scripts": {
-            "cache:clear": "./bin/console cache:clear",
-            "assets:install": "./bin/console assets:install"
+            "cache:clear": "bin/console cache:clear",
+            "assets:install": "bin/console assets:install"
         },
         "post-install-cmd": [
             "@auto-scripts"
